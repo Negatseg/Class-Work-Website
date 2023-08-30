@@ -1,0 +1,56 @@
+:root {
+    --background: rgb(27, 23, 27);
+    --card-pink: linear-gradient(black,rgb(90, 26, 86));
+    --font-pink: rgb(90, 26, 86);
+    --maint-font: white;
+}
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: var(--background);
+}
+p{
+    color: var(--maint-font);
+}
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Header h1{
+    color: var(--font-pink);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h3 {
+    color: var(--font-pink);
+}
+.card{
+    border-style: dashed;
+    border-color: var(--maint-font);
+}
+.card p {
+    color: var(--font-pink);
+}
+.card h2 {
+    color: var(--font-pink);
+    border-color: var(--maint-font);
+    border-radius: 8px;
+    border-style: solid;
+    padding: 1rem;
+}
+pre {
+    border-radius: 5px;
+    background: var(--card-pink);
+}
